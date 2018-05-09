@@ -1,0 +1,21 @@
+# **************************************************************************** #
+#                                                                              #
+#                                                         :::      ::::::::    #
+#    16                                                 :+:      :+:    :+:    #
+#                                                     +:+ +:+         +:+      #
+#    By: efriedma <marvin@42.fr>                    +#+  +:+       +#+         #
+#                                                 +#+#+#+#+#+   +#+            #
+#    Created: 2018/04/22 01:39:46 by efriedma          #+#    #+#              #
+#    Updated: 2018/04/23 20:03:33 by efriedma         ###   ########.fr        #
+#                                                                              #
+# **************************************************************************** #
+
+su root
+enter your password
+vim /etc/hosts
+
+copy and paste "46.19.122.85	intra.42.fr" into the file
+This will make intra.42.fr re-route to 46.19.122.85.
+escape edit mode, type colon and x and hit enter.
+If you couldn't change to root, permission will be denied.
+You don't have sudo rights

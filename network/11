@@ -1,0 +1,17 @@
+# **************************************************************************** #
+#                                                                              #
+#                                                         :::      ::::::::    #
+#    11                                                 :+:      :+:    :+:    #
+#                                                     +:+ +:+         +:+      #
+#    By: efriedma <marvin@42.fr>                    +#+  +:+       +#+         #
+#                                                 +#+#+#+#+#+   +#+            #
+#    Created: 2018/04/22 01:39:19 by efriedma          #+#    #+#              #
+#    Updated: 2018/04/23 19:54:14 by efriedma         ###   ########.fr        #
+#                                                                              #
+# **************************************************************************** #
+
+#nat is where the packets go from a local network to an outside network
+#Network Address Translation happens when packets are going across a traffic
+#routing device
+
+nat (10.90.1.11)
